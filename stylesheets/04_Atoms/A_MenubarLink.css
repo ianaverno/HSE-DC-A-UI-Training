@@ -1,0 +1,25 @@
+.A_MenubarLink {
+  position: relative;
+  display: block;
+  line-height: 80px;
+  padding: 0 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--black);
+}
+
+.A_MenubarLink:hover {
+  background-color: var(--bg-gray);
+  /* border-bottom: 1px solid var(--gray); */
+}
+
+.A_MenubarLink:hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: var(--gray);
+}
