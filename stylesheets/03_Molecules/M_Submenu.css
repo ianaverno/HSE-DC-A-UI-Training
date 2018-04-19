@@ -1,7 +1,11 @@
 .O_MenuItem.active .M_Submenu {
-  display: block;
+  transition: all .2s ease;
+  opacity: 1;
 }
 
 .M_Submenu {
-  display: none;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all .2s ease;
 }
