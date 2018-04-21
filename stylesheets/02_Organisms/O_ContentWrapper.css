@@ -4,3 +4,7 @@
   height: 100%;
   padding-left: 300px;
 }
+
+.T_SinglePageUI.compact .O_ContentWrapper {
+  padding-left: 81px;
+}

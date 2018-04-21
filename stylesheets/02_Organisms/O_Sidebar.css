@@ -10,3 +10,8 @@
   border-right: 1px solid var(--gray);
   z-index: 100;
 }
+
+
+.T_SinglePageUI.compact .O_Sidebar {
+  width: 81px;
+}

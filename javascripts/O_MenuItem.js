@@ -14,7 +14,7 @@ $(function() {
       let itemHeight = $(item).height()
       height = subItems.length * itemHeight
     };
-    
+
     container.find(".M_Submenu").height(height);
 
     if (container.hasClass("active")) {
@@ -30,4 +30,11 @@ $(function() {
       container.find(".M_Submenu").height(height);
     }
   });
+
+  $("#sidebarToggle").click(function(e) {
+    e.preventDefault()
+    $(e.target).toggleClass("compact")
+    $(".T_SinglePageUI").toggleClass("compact")
+  });
+
 });
