@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
 
-  width: 300px;
+  width: var(--full-sidebar-width);
   height: 100%;
   background-color: #fff;
   border-right: 1px solid var(--gray);
@@ -13,5 +13,5 @@
 
 
 .T_SinglePageUI.compact .O_Sidebar {
-  width: 81px;
+  width: var(--compact-sidebar-width);
 }
