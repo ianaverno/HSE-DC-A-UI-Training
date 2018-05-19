@@ -1,5 +1,4 @@
 .O_Sidebar {
-  box-sizing: border-box;
   position: fixed;
   display: flex;
   flex-direction: column;
